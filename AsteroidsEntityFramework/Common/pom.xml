@@ -22,6 +22,14 @@
     </parent>
     <artifactId>Common</artifactId>
     <packaging>jar</packaging>
+
+    <distributionManagement>
+        <repository>
+            <id>CBSEAsteroids</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/sieben8nein/ComponentBasedAsteroids</url>
+        </repository>
+    </distributionManagement>
     
     <build>
         <plugins>
