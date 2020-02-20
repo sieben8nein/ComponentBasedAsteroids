@@ -7,6 +7,7 @@ import dk.sdu.mmmi.cbse.common.data.World;
 public class WeaponPart implements EntityPart {
     private World world;
     private boolean shooting;
+
     public WeaponPart(World world){
         this.world = world;
     }

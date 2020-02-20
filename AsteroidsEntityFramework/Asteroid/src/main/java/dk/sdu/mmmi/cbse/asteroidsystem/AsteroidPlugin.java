@@ -19,7 +19,6 @@ public class AsteroidPlugin implements IGamePluginService {
     }
 
     public Entity createAsteroid(GameData gameData){
-        Random random = new Random();
         float deacceleration = 10;
         float acceleration = 20;
         float maxSpeed = 50;
