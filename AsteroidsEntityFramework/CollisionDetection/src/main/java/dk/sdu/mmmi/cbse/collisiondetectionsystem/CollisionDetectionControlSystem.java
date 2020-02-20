@@ -18,7 +18,6 @@ public class CollisionDetectionControlSystem implements IPostEntityProcessingSer
     public void process(GameData gameData, World world) {
         Entity player = world.getEntities(Player.class).get(0);
         for (Entity enemy : world.getEntities(Enemy.class)) {
-            System.out.println(getDistance(player, enemy));
             if(getDistance(player, enemy) < 16){
                 world.removeEntity(enemy);
             }
@@ -26,7 +25,6 @@ public class CollisionDetectionControlSystem implements IPostEntityProcessingSer
 
 
         for (Entity asteroid : world.getEntities(Asteroid.class)) {
-            System.out.println(getDistance(player, asteroid));
             if(getDistance(player, asteroid) < 16){
                 world.removeEntity(asteroid);
             }

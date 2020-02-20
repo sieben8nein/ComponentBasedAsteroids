@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Bullet/Bullet.iml" filepath="$PROJECT_DIR$/Bullet/Bullet.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollisionDetection/CollisionDetection.iml" filepath="$PROJECT_DIR$/CollisionDetection/CollisionDetection.iml" />
       <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonBullet/CommonBullet.iml" filepath="$PROJECT_DIR$/CommonBullet/CommonBullet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enemy/Enemy.iml" filepath="$PROJECT_DIR$/Enemy/Enemy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Player/Player.iml" filepath="$PROJECT_DIR$/Player/Player.iml" />
