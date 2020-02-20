@@ -84,11 +84,12 @@ public class Game
     }
 
     private void createAsteroids(List entityPlugins, List entityProcessors){
+        IEntityProcessingService asteroidProcess = new AsteroidControlSystem();
+        entityProcessors.add(asteroidProcess);
         for (int i = 0; i < 10; i++) {
             IGamePluginService asteroidPlugin = new AsteroidPlugin();
-            IEntityProcessingService asteroidProcess = new AsteroidControlSystem();
             entityPlugins.add(asteroidPlugin);
-            entityProcessors.add(asteroidProcess);
+
         }
     }
 
