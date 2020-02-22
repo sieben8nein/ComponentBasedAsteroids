@@ -30,9 +30,10 @@
     <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-freetype-platform:natives-desktop:1.9.10" level="project" />
     <orderEntry type="module" module-name="Common" />
     <orderEntry type="module" module-name="Player" />
-    <orderEntry type="module" module-name="CommonBullet" />
     <orderEntry type="module" module-name="Enemy" />
     <orderEntry type="module" module-name="Asteroid" />
     <orderEntry type="module" module-name="CollisionDetection" />
+    <orderEntry type="module" module-name="CommonBullet" />
+    <orderEntry type="module" module-name="SimpleBullet" />
   </component>
 </module>

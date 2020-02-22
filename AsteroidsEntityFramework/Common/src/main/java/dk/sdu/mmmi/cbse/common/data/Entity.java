@@ -10,7 +10,7 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Entity implements Serializable, Drawable {
-    private final UUID ID = UUID.randomUUID();
+    private UUID ID = UUID.randomUUID();
 
     private float[] shapeX = new float[4];
     private float[] shapeY = new float[4];
@@ -47,6 +47,10 @@ public class Entity implements Serializable, Drawable {
 
     public float[] getShapeX() {
         return shapeX;
+    }
+
+    public void setID(String id){
+        ID = UUID.fromString(id);
     }
 
     public void setShapeX(float[] shapeX) {

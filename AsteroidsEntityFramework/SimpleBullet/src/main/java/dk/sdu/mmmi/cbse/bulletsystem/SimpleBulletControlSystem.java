@@ -10,6 +10,8 @@ import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.commonbullet.Bullet;
 import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
 
+import java.util.UUID;
+
 public class SimpleBulletControlSystem implements IEntityProcessingService, BulletSPI {
     @Override
     public void process(GameData gameData, World world) {
@@ -36,19 +38,27 @@ public class SimpleBulletControlSystem implements IEntityProcessingService, Bull
     @Override
     public Entity createBullet(Entity shooter, GameData gameData) {
         PositionPart startPos = shooter.getPart(PositionPart.class);
-
+        String shooterIDLastCharacters = shooter
+                .getID()
+                .substring(shooter
+                        .getID()
+                        .length() - 3);
         float speed = 200;
         float rotationSpeed = 5;
         float x = startPos.getX();
         float y = startPos.getY();
         float radians = startPos.getRadians();
-
+        UUID unChangedID = UUID.randomUUID();
+        String customID = unChangedID
+                .toString()
+                .substring(0, unChangedID.toString().length()-3)
+                .concat(shooterIDLastCharacters);
         Entity bullet = new Bullet();
+        bullet.setID(customID);
         bullet.setRadius(3);
-
         bullet.add(new MovingPart(0, Integer.MAX_VALUE, speed, 5));
         bullet.add(new PositionPart(x, y, radians));
-        bullet.add(new LifePart(1, 1));
+        bullet.add(new LifePart(100, 1));
 
 
 

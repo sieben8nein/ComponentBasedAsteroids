@@ -1,35 +1,38 @@
 package dk.sdu.mmmi.cbse.collisiondetectionsystem;
 
-import dk.sdu.mmmi.cbse.asteroidsystem.Asteroid;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
-import dk.sdu.mmmi.cbse.common.data.entityparts.EntityPart;
+import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
-import dk.sdu.mmmi.cbse.enemysystem.Enemy;
-import dk.sdu.mmmi.cbse.playersystem.Player;
-
-import java.util.Arrays;
-import java.util.Collections;
 
 public class CollisionDetectionControlSystem implements IPostEntityProcessingService {
     @Override
     public void process(GameData gameData, World world) {
-        Entity player = world.getEntities(Player.class).get(0);
-        for (Entity enemy : world.getEntities(Enemy.class)) {
-            if(getDistance(player, enemy) < 16){
-                world.removeEntity(enemy);
+
+        for (Entity ent1 : world.getEntities()) {
+            for (Entity ent2 : world.getEntities()) {
+                if(!ent1.getID().substring(ent1.getID().length()-3).equals(ent2.getID().substring(ent2.getID().length()-3))) {
+                    if (getDistance(ent2, ent1) < 16) {
+
+                        LifePart ent1Life = ent1.getPart(LifePart.class);
+                        LifePart ent2Life = ent2.getPart(LifePart.class);
+
+                        if(ent1Life.getLife() <= 0){
+                            world.removeEntity(ent1);
+                        } else{
+                            ent1Life.setLife(ent1Life.getLife()-1);
+                        }
+                        if(ent2Life.getLife() <= 0){
+                            world.removeEntity(ent2);
+                        } else {
+                            ent2Life.setLife(ent2Life.getLife()-1);
+                        }
+                    }
+                }
             }
         }
-
-
-        for (Entity asteroid : world.getEntities(Asteroid.class)) {
-            if(getDistance(player, asteroid) < 16){
-                world.removeEntity(asteroid);
-            }
-        }
-
     }
 
     public float getDistance(Entity entity1, Entity entity2){

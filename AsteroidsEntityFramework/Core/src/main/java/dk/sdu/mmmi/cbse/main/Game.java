@@ -15,6 +15,7 @@ import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.util.SPILocator;
+import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
 import dk.sdu.mmmi.cbse.enemysystem.EnemyControlSystem;
 import dk.sdu.mmmi.cbse.enemysystem.EnemyPlugin;
 import dk.sdu.mmmi.cbse.managers.GameInputProcessor;
@@ -52,6 +53,8 @@ public class Game
                 new GameInputProcessor(gameData)
         );
         startPlugins(entityPlugins, gameData, world);
+
+        getBulletSPIs();
 
     }
 
@@ -152,4 +155,9 @@ public class Game
     public Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices(){
         return SPILocator.locateAll(IPostEntityProcessingService.class);
     }
+
+    public Collection<? extends BulletSPI> getBulletSPIs(){
+        return SPILocator.locateAll(BulletSPI.class);
+    }
+
 }

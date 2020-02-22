@@ -14,4 +14,11 @@ public class Bullet extends Entity {
         sr.circle(x, y, 2);
         sr.end();
     }
+
+    /**
+     * used to identify if shooter of the bullet
+     */
+    public void setSignificantBits(String shooterID){
+
+    }
 }
