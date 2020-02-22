@@ -17,8 +17,10 @@ public class LifePart implements EntityPart {
     private int life;
     private boolean isHit = false;
     private float expiration;
+    private float initialLife;
 
     public LifePart(int life, float expiration) {
+        this.initialLife = life;
         this.life = life;
         this.expiration = expiration;
     }
@@ -56,5 +58,13 @@ public class LifePart implements EntityPart {
         if(expiration > 0 ){
             reduceExpiration(gameData.getDelta());
         }
+        if(isHit){
+            life -= gameData.getDelta() + 1;
+            isHit = false;
+        }
+    }
+
+    public float getInitialLife() {
+        return initialLife;
     }
 }

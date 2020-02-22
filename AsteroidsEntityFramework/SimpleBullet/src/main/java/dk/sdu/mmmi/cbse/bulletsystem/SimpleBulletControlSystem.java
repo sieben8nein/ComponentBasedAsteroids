@@ -58,7 +58,7 @@ public class SimpleBulletControlSystem implements IEntityProcessingService, Bull
         bullet.setRadius(3);
         bullet.add(new MovingPart(0, Integer.MAX_VALUE, speed, 5));
         bullet.add(new PositionPart(x, y, radians));
-        bullet.add(new LifePart(100, 1));
+        bullet.add(new LifePart(50000, 1));
 
 
 

@@ -14,7 +14,7 @@ public class CollisionDetectionControlSystem implements IPostEntityProcessingSer
         for (Entity ent1 : world.getEntities()) {
             for (Entity ent2 : world.getEntities()) {
                 if(!ent1.getID().substring(ent1.getID().length()-3).equals(ent2.getID().substring(ent2.getID().length()-3))) {
-                    if (getDistance(ent2, ent1) < 16) {
+                    if (getDistance(ent2, ent1) < ent1.getRadius() + ent2.getRadius()) {
 
                         LifePart ent1Life = ent1.getPart(LifePart.class);
                         LifePart ent2Life = ent2.getPart(LifePart.class);
@@ -22,12 +22,12 @@ public class CollisionDetectionControlSystem implements IPostEntityProcessingSer
                         if(ent1Life.getLife() <= 0){
                             world.removeEntity(ent1);
                         } else{
-                            ent1Life.setLife(ent1Life.getLife()-1);
+                            ent1Life.setIsHit(true);
                         }
                         if(ent2Life.getLife() <= 0){
                             world.removeEntity(ent2);
                         } else {
-                            ent2Life.setLife(ent2Life.getLife()-1);
+                            ent2Life.setIsHit(true);
                         }
                     }
                 }

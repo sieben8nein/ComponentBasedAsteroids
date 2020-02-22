@@ -18,9 +18,8 @@ public class AsteroidPlugin implements IGamePluginService {
     }
 
     public Entity createAsteroid(GameData gameData){
-        float deacceleration = 10;
-        float acceleration = 20;
-        float maxSpeed = 50;
+
+        float maxSpeed = 100;
         float rotationSpeed = 1;
         //min + Math.random() * (max - min);
         float x = (float) Math.random() * gameData.getDisplayWidth();
@@ -28,9 +27,10 @@ public class AsteroidPlugin implements IGamePluginService {
         float radians = 3.1415f;
 
         Entity asteroid = new Asteroid();
-        asteroid.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
+        asteroid.add(new MovingPart(0, 50000, maxSpeed, rotationSpeed));
         asteroid.add(new PositionPart(x, y, radians));
         asteroid.add(new LifePart(100, 100));
+        asteroid.setRadius(8);
 
         return asteroid;
     }

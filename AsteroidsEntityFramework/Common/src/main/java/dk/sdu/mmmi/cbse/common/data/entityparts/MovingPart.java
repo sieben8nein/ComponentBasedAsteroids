@@ -59,6 +59,8 @@ public class MovingPart
         this.up = up;
     }
 
+    public float getSpeed(){ return maxSpeed;}
+
     @Override
     public void process(GameData gameData, Entity entity) {
         PositionPart positionPart = entity.getPart(PositionPart.class);

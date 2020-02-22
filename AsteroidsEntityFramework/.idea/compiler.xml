@@ -9,10 +9,12 @@
         <module name="Asteroid" />
         <module name="CollisionDetection" />
         <module name="Common" />
+        <module name="CommonAsteroidSplitter" />
         <module name="CommonBullet" />
         <module name="Core" />
         <module name="Enemy" />
         <module name="Player" />
+        <module name="SimpleAsteroidSplitter" />
         <module name="SimpleBullet" />
       </profile>
     </annotationProcessing>
@@ -21,10 +23,13 @@
       <module name="AsteroidsEntityFramework" target="1.8" />
       <module name="CollisionDetection" target="1.8" />
       <module name="Common" target="1.8" />
+      <module name="CommonAsteroidSplitter" target="1.8" />
       <module name="CommonBullet" target="1.8" />
       <module name="Core" target="1.8" />
+      <module name="Debris" target="1.8" />
       <module name="Enemy" target="1.8" />
       <module name="Player" target="1.8" />
+      <module name="SimpleAsteroidSplitter" target="1.8" />
       <module name="SimpleBullet" target="1.8" />
     </bytecodeTargetLevel>
   </component>

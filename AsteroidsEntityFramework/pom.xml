@@ -14,7 +14,8 @@
         <module>CollisionDetection</module>
         <module>CommonBullet</module>
         <module>SimpleBullet</module>
-        <module>CommonEffect</module>
+        <module>CommonAsteroidSplitter</module>
+        <module>SimpleAsteroidSplitter</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

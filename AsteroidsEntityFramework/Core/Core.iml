@@ -35,5 +35,7 @@
     <orderEntry type="module" module-name="CollisionDetection" />
     <orderEntry type="module" module-name="CommonBullet" />
     <orderEntry type="module" module-name="SimpleBullet" />
+    <orderEntry type="module" module-name="CommonAsteroidSplitter" />
+    <orderEntry type="module" module-name="SimpleAsteroidSplitter" />
   </component>
 </module>
