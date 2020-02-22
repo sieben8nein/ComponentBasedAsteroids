@@ -5,8 +5,9 @@ import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.common.data.entityparts.WeaponPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.common.util.SPILocator;
+import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
 
 import static dk.sdu.mmmi.cbse.common.data.GameKeys.*;
 
@@ -22,16 +23,19 @@ public class PlayerControlSystem implements IEntityProcessingService {
         for (Entity player : world.getEntities(Player.class)) {
             PositionPart positionPart = player.getPart(PositionPart.class);
             MovingPart movingPart = player.getPart(MovingPart.class);
-            WeaponPart weaponPart = player.getPart(WeaponPart.class);
 
             movingPart.setLeft(gameData.getKeys().isDown(LEFT));
             movingPart.setRight(gameData.getKeys().isDown(RIGHT));
             movingPart.setUp(gameData.getKeys().isDown(UP));
-            weaponPart.setShooting(gameData.getKeys().isDown(SPACE));
+
+            if(gameData.getKeys().isDown(SPACE)){
+                BulletSPI bulletService = SPILocator.locateAll(BulletSPI.class).get(0);
+                Entity bullet = bulletService.createBullet(player, gameData);
+                world.addEntity(bullet);
+            }
             
             movingPart.process(gameData, player);
             positionPart.process(gameData, player);
-            weaponPart.process(gameData, player);
 
             updateShape(player);
         }

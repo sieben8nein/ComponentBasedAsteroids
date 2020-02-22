@@ -53,6 +53,8 @@ public class LifePart implements EntityPart {
     
     @Override
     public void process(GameData gameData, Entity entity) {
-        
+        if(expiration > 0 ){
+            reduceExpiration(gameData.getDelta());
+        }
     }
 }

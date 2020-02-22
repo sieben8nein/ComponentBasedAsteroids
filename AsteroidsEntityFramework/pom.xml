@@ -12,7 +12,7 @@
         <module>Enemy</module>
         <module>Asteroid</module>
         <module>CollisionDetection</module>
-        <module>Bullet</module>
+        <module>SimpleBullet</module>
         <module>CommonBullet</module>
     </modules>
     <properties>
