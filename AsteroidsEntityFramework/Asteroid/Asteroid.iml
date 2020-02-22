@@ -14,5 +14,6 @@
     <orderEntry type="module" module-name="Common" />
     <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx:1.9.10" level="project" />
     <orderEntry type="module" module-name="CommonAsteroidSplitter" />
+    <orderEntry type="module" module-name="CommonAsteroid" />
   </component>
 </module>

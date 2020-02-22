@@ -32,6 +32,7 @@
     <orderEntry type="module" module-name="Player" />
     <orderEntry type="module" module-name="Enemy" />
     <orderEntry type="module" module-name="Asteroid" />
+    <orderEntry type="module" module-name="CommonAsteroid" />
     <orderEntry type="module" module-name="CollisionDetection" />
     <orderEntry type="module" module-name="CommonBullet" />
     <orderEntry type="module" module-name="SimpleBullet" />

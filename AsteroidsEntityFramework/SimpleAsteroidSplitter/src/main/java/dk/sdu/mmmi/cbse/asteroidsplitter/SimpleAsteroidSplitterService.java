@@ -1,11 +1,12 @@
 package dk.sdu.mmmi.cbse.asteroidsplitter;
 
-import dk.sdu.mmmi.cbse.asteroidsystem.Asteroid;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
+import dk.sdu.mmmi.cbse.common.util.SPILocator;
+import dk.sdu.mmmi.cbse.commonasteroid.AsteroidSPI;
 import dk.sdu.mmmi.cbse.commonasteroidsplitter.AsteroidSplitterSPI;
 
 public class SimpleAsteroidSplitterService implements AsteroidSplitterSPI {
@@ -34,7 +35,7 @@ public class SimpleAsteroidSplitterService implements AsteroidSplitterSPI {
 
     private  Entity createAsteroid(PositionPart parentPos, float parentRadius, float radius, float radians, int life, float speed){
 
-        Entity newAsteroid = new Asteroid();
+        Entity newAsteroid = SPILocator.locateAll(AsteroidSPI.class).get(0).createAsteroid(parentPos.getX(), parentPos.getY());
         newAsteroid.setRadius(radius);
         float newradians = radians;
         float by = (float) Math.sin(newradians) * parentRadius * radius;

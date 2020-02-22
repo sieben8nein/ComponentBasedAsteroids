@@ -16,6 +16,8 @@
         <module>SimpleBullet</module>
         <module>CommonAsteroidSplitter</module>
         <module>SimpleAsteroidSplitter</module>
+        <module>EntityFactory</module>
+        <module>CommonAsteroid</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

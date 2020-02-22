@@ -5,9 +5,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import dk.sdu.mmmi.cbse.asteroidsystem.AsteroidControlSystem;
-import dk.sdu.mmmi.cbse.asteroidsystem.AsteroidPlugin;
-import dk.sdu.mmmi.cbse.collisiondetectionsystem.CollisionDetectionControlSystem;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.interfaces.Drawable;
@@ -15,12 +12,8 @@ import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.util.SPILocator;
-import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
-import dk.sdu.mmmi.cbse.enemysystem.EnemyControlSystem;
-import dk.sdu.mmmi.cbse.enemysystem.EnemyPlugin;
+import dk.sdu.mmmi.cbse.commonasteroid.AsteroidSPI;
 import dk.sdu.mmmi.cbse.managers.GameInputProcessor;
-import dk.sdu.mmmi.cbse.playersystem.PlayerControlSystem;
-import dk.sdu.mmmi.cbse.playersystem.PlayerPlugin;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -54,13 +47,10 @@ public class Game
         );
         startPlugins(entityPlugins, gameData, world);
 
-        getBulletSPIs();
+        for (int i = 0; i < 10; i++) {
+            world.addEntity(SPILocator.locateAll(AsteroidSPI.class).get(0).createAsteroid((float) Math.random() * gameData.getDisplayHeight(), (float) Math.random() * gameData.getDisplayWidth()));
+        }
 
-    }
-
-    private void createCollisionDetection(List postEntityProcessors){
-        IPostEntityProcessingService collisionDetectionProcess = new CollisionDetectionControlSystem();
-        postEntityProcessors.add(collisionDetectionProcess);
     }
 
     private void startPlugins(List<IGamePluginService> entityPlugins, GameData gameData, World world){
@@ -69,29 +59,6 @@ public class Game
         }
     }
 
-    private void createPlayer(List entityPlugins, List entityProcessors){
-        IGamePluginService playerPlugin = new PlayerPlugin();
-        IEntityProcessingService playerProcess = new PlayerControlSystem();
-        entityPlugins.add(playerPlugin);
-        entityProcessors.add(playerProcess);
-    }
-
-    private void createEnemy(List entityPlugins, List entityProcessors){
-        IGamePluginService enemyPlugin = new EnemyPlugin();
-        IEntityProcessingService enemyProcess = new EnemyControlSystem();
-        entityPlugins.add(enemyPlugin);
-        entityProcessors.add(enemyProcess);
-    }
-
-    private void createAsteroids(List entityPlugins, List entityProcessors){
-        IEntityProcessingService asteroidProcess = new AsteroidControlSystem();
-        entityProcessors.add(asteroidProcess);
-        for (int i = 0; i < 10; i++) {
-            IGamePluginService asteroidPlugin = new AsteroidPlugin();
-            entityPlugins.add(asteroidPlugin);
-
-        }
-    }
 
     @Override
     public void render() {
@@ -106,10 +73,6 @@ public class Game
         gameData.getKeys().update();
     }
 
-    public void addEntity(IGamePluginService pluginService, IEntityProcessingService entityProcessingService){
-        entityPlugins.add(pluginService);
-        entityProcessors.add(entityProcessingService);
-    }
 
     private void update() {
         // Update
@@ -154,10 +117,6 @@ public class Game
 
     public Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices(){
         return SPILocator.locateAll(IPostEntityProcessingService.class);
-    }
-
-    public Collection<? extends BulletSPI> getBulletSPIs(){
-        return SPILocator.locateAll(BulletSPI.class);
     }
 
 }
