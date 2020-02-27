@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Asteroid" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Asteroid/src/main/java" charset="UTF-8" />
@@ -11,19 +11,27 @@
     <file url="file://$PROJECT_DIR$/Common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommonAsteroid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonAsteroid/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommonAsteroidSplitter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonAsteroidSplitter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommonBullet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonBullet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonBullet/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Enemy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Enemy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Enemy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EntityFactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EntityFactory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Player" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Player/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Player/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SimpleAsteroidSplitter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SimpleAsteroidSplitter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SimpleAsteroidSplitter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SimpleBullet" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SimpleBullet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SimpleBullet/src/main/resources" charset="UTF-8" />
   </component>
 </project>

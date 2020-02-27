@@ -60,8 +60,6 @@ public class SimpleBulletControlSystem implements IEntityProcessingService, Bull
         bullet.add(new PositionPart(x, y, radians));
         bullet.add(new LifePart(50000, 1));
 
-
-
         return bullet;
     }
 

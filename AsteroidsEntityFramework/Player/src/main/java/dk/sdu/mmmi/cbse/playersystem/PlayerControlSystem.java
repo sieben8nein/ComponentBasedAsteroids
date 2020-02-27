@@ -8,6 +8,7 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.util.SPILocator;
 import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
+import org.graalvm.compiler.serviceprovider.ServiceProvider;
 
 import static dk.sdu.mmmi.cbse.common.data.GameKeys.*;
 
@@ -15,6 +16,7 @@ import static dk.sdu.mmmi.cbse.common.data.GameKeys.*;
  *
  * @author jcs
  */
+//@ServiceProviders(value = {ServiceProvider(service = IEntityProcessingService), })
 public class PlayerControlSystem implements IEntityProcessingService {
 
     @Override
