@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.SimpleBullet">
+    <module_version install_time="1583229542935" last="true" origin="installer" specification_version="2.0">
+        <file crc="2973137180" name="config/Modules/dk-sdu-mmmi-cbse-SimpleBullet.xml"/>
+        <file crc="2984283075" name="modules/dk-sdu-mmmi-cbse-SimpleBullet.jar"/>
+    </module_version>
+</module>

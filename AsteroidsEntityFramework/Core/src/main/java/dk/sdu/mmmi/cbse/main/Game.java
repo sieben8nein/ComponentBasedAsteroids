@@ -24,6 +24,7 @@ public class Game
 
     private static OrthographicCamera cam;
     private ShapeRenderer sr;
+    //private LookUp lookUp = LookUp.getDefault();
 
     private final GameData gameData = new GameData();
     private List<IEntityProcessingService> entityProcessors = new ArrayList<>();

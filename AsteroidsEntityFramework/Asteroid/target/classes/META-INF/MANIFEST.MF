@@ -1,0 +1,21 @@
+Manifest-Version: null
+OpenIDE-Module-Specification-Version: 1.0.1
+OpenIDE-Module-Implementation-Version: 1.0.1-20200227
+OpenIDE-Module-Build-Version: 202002270932
+OpenIDE-Module: dk.sdu.mmmi.cbse.Asteroid
+OpenIDE-Module-Public-Packages: dk.sdu.mmmi.cbse.asteroidsystem.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
+OpenIDE-Module-Name: Asteroid
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/dk.sdu.mmmi.cbse.Asteroid/dk-sdu-mmmi-cbse/Common.ja
+ r ext/dk.sdu.mmmi.cbse.Asteroid/com-badlogicgames-gdx/gdx.jar ext/dk.
+ sdu.mmmi.cbse.Asteroid/dk-sdu-mmmi-cbse/CommonAsteroidSplitter.jar ex
+ t/dk.sdu.mmmi.cbse.Asteroid/dk-sdu-mmmi-cbse/CommonAsteroid.jar
+Maven-Class-Path: dk.sdu.mmmi.cbse:Common:1.0.1-SNAPSHOT com.badlogicg
+ ames.gdx:gdx:1.9.10 dk.sdu.mmmi.cbse:CommonAsteroidSplitter:1.0.1-SNA
+ PSHOT dk.sdu.mmmi.cbse:CommonAsteroid:1.0.1-SNAPSHOT
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.33
+

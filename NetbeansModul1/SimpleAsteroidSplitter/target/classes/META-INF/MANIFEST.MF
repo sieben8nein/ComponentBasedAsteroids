@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/simpleasteroidsplit
+ ter/Bundle.properties
+OpenIDE-Module-Specification-Version: 2.0
+OpenIDE-Module-Implementation-Version: 2.0
+OpenIDE-Module-Build-Version: 202003030933
+OpenIDE-Module: dk.sdu.mmmi.cbse.SimpleAsteroidSplitter
+OpenIDE-Module-Public-Packages: -
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
+OpenIDE-Module-Name: SimpleAsteroidSplitter
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.33, org.openide.util.lookup > 8.39, dk.sdu.mmmi.cbse.Common >
+  2.0, dk.sdu.mmmi.cbse.CommonAsteroidSplitter > 2.0, dk.sdu.mmmi.cbse
+ .CommonAsteroid > 2.0
+
