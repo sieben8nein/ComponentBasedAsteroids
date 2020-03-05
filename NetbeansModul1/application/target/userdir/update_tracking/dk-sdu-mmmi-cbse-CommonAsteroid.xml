@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="dk.sdu.mmmi.cbse.CommonAsteroid">
+    <module_version install_time="1583415525970" last="true" origin="Sample Update Center" specification_version="2.0">
+        <file crc="62841048" name="config/Modules/dk-sdu-mmmi-cbse-CommonAsteroid.xml"/>
+        <file crc="2046978766" name="modules/dk-sdu-mmmi-cbse-CommonAsteroid.jar"/>
+    </module_version>
+</module>

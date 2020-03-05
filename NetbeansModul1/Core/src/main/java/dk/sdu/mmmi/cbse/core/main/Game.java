@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import org.openide.util.Lookup;
+import org.openide.util.LookupEvent;
+import org.openide.util.LookupListener;
 
 public class Game
         implements ApplicationListener {
@@ -25,6 +27,7 @@ public class Game
     private static OrthographicCamera cam;
     private ShapeRenderer sr;
     private final Lookup lookup = Lookup.getDefault();
+    private Lookup.Result<IGamePluginService> result;
 
     private final GameData gameData = new GameData();
     private List<IEntityProcessingService> entityProcessors = new ArrayList<>();
@@ -46,6 +49,10 @@ public class Game
         Gdx.input.setInputProcessor(
                 new GameInputProcessor(gameData)
         );
+        result = lookup.lookupResult(IGamePluginService.class);
+        result.addLookupListener(lookupListener);
+        result.allItems();
+        
         startPlugins(entityPlugins, gameData, world);
         
 
@@ -58,6 +65,7 @@ public class Game
     private void startPlugins(List<IGamePluginService> entityPlugins, GameData gameData, World world){
         for (IGamePluginService iGamePlugin : getPluginServices()) {
             iGamePlugin.start(gameData, world);
+            entityPlugins.add(iGamePlugin);
         }
     }
 
@@ -134,5 +142,30 @@ public class Game
     public Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices(){
         return lookup.lookupAll(IPostEntityProcessingService.class);
     }
+    
+    private final LookupListener lookupListener = new LookupListener() {
+        @Override
+        public void resultChanged(LookupEvent le) {
+
+            Collection<? extends IGamePluginService> updated = result.allInstances();
+
+            for (IGamePluginService us : updated) {
+                // Newly installed modules
+                if (!entityPlugins.contains(us)) {
+                    us.start(gameData, world);
+                    entityPlugins.add(us);
+                }
+            }
+
+            // Stop and remove module
+            for (IGamePluginService gs : entityPlugins) {
+                if (!updated.contains(gs)) {
+                    gs.stop(gameData, world);
+                    entityPlugins.remove(gs);
+                }
+            }
+        }
+
+    };
 
 }

@@ -10,7 +10,7 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import org.openide.modules.ModuleInstall;
 
 public class Installer extends ModuleInstall {
-
+    private static Game g;
     
     @Override
     public void restored() {
@@ -22,6 +22,7 @@ public class Installer extends ModuleInstall {
 		cfg.useGL30 = false;
 		cfg.resizable = false;
 		
-		new LwjglApplication(new Game(), cfg);
+                g = new Game();
+		new LwjglApplication(g, cfg);
     }
 }

@@ -1,2 +1,3 @@
 dk\sdu\mmmi\cbse\collisiondetection\CollisionDetectionControlSystem.class
 META-INF\services\dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService
+dk\sdu\mmmi\cbse\collisiondetection\Installer.class
