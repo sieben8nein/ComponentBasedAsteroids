@@ -4,7 +4,7 @@ OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/simplebullet/Bundle
  .properties
 OpenIDE-Module-Specification-Version: 2.0
 OpenIDE-Module-Implementation-Version: 2.0
-OpenIDE-Module-Build-Version: 202003051002
+OpenIDE-Module-Build-Version: 202003051347
 OpenIDE-Module: dk.sdu.mmmi.cbse.SimpleBullet
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

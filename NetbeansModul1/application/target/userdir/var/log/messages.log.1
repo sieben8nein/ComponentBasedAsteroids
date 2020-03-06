@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Thursday, March 5, 2020 at 11:27:41 AM Central European Standard Time
+>Log Session: Thursday, March 5, 2020 at 2:36:24 PM Central European Standard Time
 >System Info: 
   Product Version         = Apache NetBeans Platform Dev (Build 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54)
   Operating System        = Windows 10 version 10.0 running on amd64
@@ -38,112 +38,207 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.core.startup/1 [1.68.0.1 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
 	org.netbeans.api.progress.nb [1.53 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
 	org.netbeans.modules.autoupdate.services [1.59 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
+	dk.sdu.mmmi.cbse.Common [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.CommonBullet [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.SimpleBullet [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.CommonAsteroidSplitter [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.CommonAsteroid [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.SimpleAsteroidSplitter [2.0 2.0 202003051002]
 	dk.sdu.mmmi.cbse.SilentUpdate [1.0 1.0-20200305 202003051026]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Enemy[dk.sdu.mmmi.cbse.Enemy/2.0]
+	dk.sdu.mmmi.cbse.Player [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.Enemy [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.Core [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.CollisionDetection [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.Asteroid [2.0 2.0 202003051002]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0]
+INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
+	dk.sdu.mmmi.cbse.Asteroid [2.0 2.0 202003051002]
+WARNING [org.openide.util.lookup.ProxyLookup]
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.common.data.World.removeEntity(World.java:27)
+	at dk.sdu.mmmi.cbse.asteroid.AsteroidPlugin.stop(AsteroidPlugin.java:23)
+	at dk.sdu.mmmi.cbse.core.main.Game$1.resultChanged(Game.java:163)
+[catch] at org.openide.util.lookup.ProxyLookup$1Notify.run(ProxyLookup.java:155)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:164)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:100)
+	at org.netbeans.core.startup.MainLookup.changeLookups(MainLookup.java:193)
+	at org.netbeans.core.startup.MainLookup.systemClassLoaderChanged(MainLookup.java:93)
+	at org.netbeans.core.startup.ModuleSystem$1.propertyChange(ModuleSystem.java:91)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266)
+	at org.netbeans.ModuleManager.firePropertyChange(ModuleManager.java:279)
+	at org.netbeans.ChangeFirer.fire(ChangeFirer.java:87)
+	at org.netbeans.ModuleManager.disable(ModuleManager.java:1534)
+	at org.netbeans.core.startup.ModuleList$Listener.stepDelete(ModuleList.java:1441)
+	at org.netbeans.core.startup.ModuleList$Listener.access$1600(ModuleList.java:982)
+	at org.netbeans.core.startup.ModuleList$Listener$1.run(ModuleList.java:1208)
+	at org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+	at org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+	at org.netbeans.core.startup.ModuleList$Listener.run(ModuleList.java:1182)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+Turning off modules...
+Stopping Asteroid
+Turning off modules...done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated 2 more times.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0]
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Asteroid.nbm
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml@0
+INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar@0
+INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Asteroid.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar
+INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@31b4cfdf
+INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml modified.
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml@0
+INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\additional_information.xml deleted.
+WARNING [org.openide.util.lookup.ProxyLookup]
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.common.data.World.removeEntity(World.java:27)
+	at dk.sdu.mmmi.cbse.asteroid.AsteroidPlugin.stop(AsteroidPlugin.java:23)
+	at dk.sdu.mmmi.cbse.core.main.Game$1.resultChanged(Game.java:163)
+[catch] at org.openide.util.lookup.ProxyLookup$1Notify.run(ProxyLookup.java:155)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:164)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:100)
+	at org.netbeans.core.startup.MainLookup.changeLookups(MainLookup.java:193)
+	at org.netbeans.core.startup.MainLookup.moduleClassLoadersUp(MainLookup.java:107)
+	at org.netbeans.core.startup.MainLookup.systemClassLoaderChanged(MainLookup.java:95)
+	at org.netbeans.core.startup.NbInstaller.classLoaderUp(NbInstaller.java:309)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1435)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1254)
+	at org.netbeans.core.startup.ModuleList.installNew(ModuleList.java:315)
+	at org.netbeans.core.startup.ModuleList.access$2400(ModuleList.java:93)
+	at org.netbeans.core.startup.ModuleList$Listener.stepEnable(ModuleList.java:1384)
+	at org.netbeans.core.startup.ModuleList$Listener.access$1400(ModuleList.java:982)
+	at org.netbeans.core.startup.ModuleList$Listener$1.run(ModuleList.java:1206)
+	at org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+	at org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+	at org.netbeans.core.startup.ModuleList$Listener.run(ModuleList.java:1182)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	dk.sdu.mmmi.cbse.Asteroid [2.0 2.0 202003051002]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
+Turning on modules...
+Loading module services...
+Loading modules...
+Starting modules...
+Turning on modules...done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: CommonAsteroid[dk.sdu.mmmi.cbse.CommonAsteroid/2.0]
+Turning off modules...
+Stopping Asteroid
+Stopping Core
+Stopping SimpleAsteroidSplitter
+Stopping CommonAsteroid
+INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
+	dk.sdu.mmmi.cbse.Asteroid [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.Core [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.SimpleAsteroidSplitter [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.CommonAsteroid [2.0 2.0 202003051002]
+WARNING [org.openide.util.lookup.ProxyLookup]
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.common.data.World.removeEntity(World.java:27)
+	at dk.sdu.mmmi.cbse.asteroid.AsteroidPlugin.stop(AsteroidPlugin.java:23)
+	at dk.sdu.mmmi.cbse.core.main.Game$1.resultChanged(Game.java:163)
+[catch] at org.openide.util.lookup.ProxyLookup$1Notify.run(ProxyLookup.java:155)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:164)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:100)
+	at org.netbeans.core.startup.MainLookup.changeLookups(MainLookup.java:193)
+	at org.netbeans.core.startup.MainLookup.systemClassLoaderChanged(MainLookup.java:93)
+	at org.netbeans.core.startup.ModuleSystem$1.propertyChange(ModuleSystem.java:91)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266)
+	at org.netbeans.ModuleManager.firePropertyChange(ModuleManager.java:279)
+	at org.netbeans.ChangeFirer.fire(ChangeFirer.java:87)
+	at org.netbeans.ModuleManager.disable(ModuleManager.java:1534)
+	at org.netbeans.core.startup.ModuleList$Listener.stepDelete(ModuleList.java:1441)
+	at org.netbeans.core.startup.ModuleList$Listener.access$1600(ModuleList.java:982)
+	at org.netbeans.core.startup.ModuleList$Listener$1.run(ModuleList.java:1208)
+	at org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+	at org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+	at org.netbeans.core.startup.ModuleList$Listener.run(ModuleList.java:1182)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
+Turning off modules...done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: There are broken dependencies => cannot continue, broken deps: [module dk.sdu.mmmi.cbse.CommonAsteroid > 2.0]
 INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: CommonAsteroid[dk.sdu.mmmi.cbse.CommonAsteroid/2.0]
 INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: CollisionDetection[dk.sdu.mmmi.cbse.CollisionDetection/2.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Common[dk.sdu.mmmi.cbse.Common/2.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: CommonBullet[dk.sdu.mmmi.cbse.CommonBullet/2.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Player[dk.sdu.mmmi.cbse.Player/2.0]
 INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/2.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: SimpleBullet[dk.sdu.mmmi.cbse.SimpleBullet/2.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: CommonAsteroidSplitter[dk.sdu.mmmi.cbse.CommonAsteroidSplitter/2.0]
 INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: SimpleAsteroidSplitter[dk.sdu.mmmi.cbse.SimpleAsteroidSplitter/2.0]
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Enemy[dk.sdu.mmmi.cbse.Enemy/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Common[dk.sdu.mmmi.cbse.Common/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in CommonBullet[dk.sdu.mmmi.cbse.CommonBullet/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
 INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in CommonAsteroid[dk.sdu.mmmi.cbse.CommonAsteroid/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in CommonAsteroidSplitter[dk.sdu.mmmi.cbse.CommonAsteroidSplitter/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
 INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in CollisionDetection[dk.sdu.mmmi.cbse.CollisionDetection/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Player[dk.sdu.mmmi.cbse.Player/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
 INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Core[dk.sdu.mmmi.cbse.Core/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in SimpleBullet[dk.sdu.mmmi.cbse.SimpleBullet/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
 INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in SimpleAsteroidSplitter[dk.sdu.mmmi.cbse.SimpleAsteroidSplitter/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Enemy[dk.sdu.mmmi.cbse.Enemy/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Common[dk.sdu.mmmi.cbse.Common/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in CommonBullet[dk.sdu.mmmi.cbse.CommonBullet/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
 INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in CommonAsteroid[dk.sdu.mmmi.cbse.CommonAsteroid/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in CommonAsteroidSplitter[dk.sdu.mmmi.cbse.CommonAsteroidSplitter/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
 INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in CollisionDetection[dk.sdu.mmmi.cbse.CollisionDetection/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Player[dk.sdu.mmmi.cbse.Player/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
 INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Core[dk.sdu.mmmi.cbse.Core/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in SimpleBullet[dk.sdu.mmmi.cbse.SimpleBullet/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
 INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in SimpleAsteroidSplitter[dk.sdu.mmmi.cbse.SimpleAsteroidSplitter/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-CommonBullet.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonBullet.xml@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonBullet.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-CommonBullet.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonBullet.xml
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonBullet.jar@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonBullet.nbm:netbeans/modules/dk-sdu-mmmi-cbse-CommonBullet.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonBullet.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonBullet.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7581af3d
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CommonBullet.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CommonBullet.xml@0
 INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-CommonAsteroid.nbm
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonAsteroid.xml@0
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroid.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-CommonAsteroid.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonAsteroid.xml
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonAsteroid.jar@0
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroid.nbm:netbeans/modules/dk-sdu-mmmi-cbse-CommonAsteroid.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonAsteroid.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroid.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@71ce9ed9
+WARNING [org.netbeans.updater]: Error: Cannot delete C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroid.nbm
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7151dad1
 INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CommonAsteroid.xml modified.
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CommonAsteroid.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Player.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Player.xml@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Player.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Player.xml
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Player.jar@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Player.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Player.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@6fa0d86e
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Player.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Player.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-SimpleBullet.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-SimpleBullet.xml@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleBullet.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-SimpleBullet.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-SimpleBullet.xml
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-SimpleBullet.jar@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleBullet.nbm:netbeans/modules/dk-sdu-mmmi-cbse-SimpleBullet.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-SimpleBullet.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleBullet.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@5a70ed2f
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-SimpleBullet.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-SimpleBullet.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-CommonAsteroidSplitter.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.xml@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-CommonAsteroidSplitter.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.xml
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.jar@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.nbm:netbeans/modules/dk-sdu-mmmi-cbse-CommonAsteroidSplitter.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7cbe3214
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CommonAsteroidSplitter.xml@0
 INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml@0
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.jar@0
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm:netbeans/modules/dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@719b06a0
+WARNING [org.netbeans.updater]: Error: Cannot delete C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@48cdec80
 INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml modified.
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Enemy.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Enemy.xml@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Enemy.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Enemy.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Enemy.xml
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Enemy.jar@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Enemy.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Enemy.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Enemy.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Enemy.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@113426e6
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Enemy.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Enemy.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Common.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Common.xml@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Common.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Common.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Common.xml
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Common.jar@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Common.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Common.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Common.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Common.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@29a15794
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Common.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Common.xml@0
 INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Core.nbm
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Core.xml@0
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Core.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Core.xml
@@ -181,55 +276,279 @@ INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semes
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl.jar
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl_util.jar@0
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl_util.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl_util.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@adc51f3
+WARNING [org.netbeans.updater]: Error: Cannot delete C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7c03c5b2
 INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Core.xml modified.
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Core.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-CollisionDetection.nbm
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CollisionDetection.xml@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CollisionDetection.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-CollisionDetection.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CollisionDetection.xml
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CollisionDetection.jar@0
-INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CollisionDetection.nbm:netbeans/modules/dk-sdu-mmmi-cbse-CollisionDetection.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CollisionDetection.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CollisionDetection.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@4bc98bd6
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CollisionDetection.xml modified.
-INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CollisionDetection.xml@0
 INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Asteroid.nbm
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml@0
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar@0
 INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Asteroid.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar
-INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@ebfeb04
+WARNING [org.netbeans.updater]: Error: Cannot delete C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@4c6182a
 INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml modified.
 INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml@0
 INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\additional_information.xml deleted.
+WARNING [org.openide.util.lookup.MetaInfServicesLookup]: dk.sdu.mmmi.cbse.commonasteroid.AsteroidSPI is not the real McCoy! Actually found it in ModuleCL@7bd36095[dk.sdu.mmmi.cbse.CommonAsteroid] (from SystemClassLoader[33 modules]) but searched for from ModuleCL@67d22d94[dk.sdu.mmmi.cbse.CommonAsteroid]
+WARNING [org.openide.util.lookup.ProxyLookup]
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.common.data.World.removeEntity(World.java:27)
+	at dk.sdu.mmmi.cbse.asteroid.AsteroidPlugin.stop(AsteroidPlugin.java:23)
+	at dk.sdu.mmmi.cbse.core.main.Game$1.resultChanged(Game.java:163)
+[catch] at org.openide.util.lookup.ProxyLookup$1Notify.run(ProxyLookup.java:155)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:164)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:100)
+	at org.netbeans.core.startup.MainLookup.changeLookups(MainLookup.java:193)
+	at org.netbeans.core.startup.MainLookup.moduleClassLoadersUp(MainLookup.java:107)
+	at org.netbeans.core.startup.MainLookup.systemClassLoaderChanged(MainLookup.java:95)
+	at org.netbeans.core.startup.NbInstaller.classLoaderUp(NbInstaller.java:309)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1435)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1254)
+	at org.netbeans.core.startup.ModuleList.installNew(ModuleList.java:315)
+	at org.netbeans.core.startup.ModuleList.access$2400(ModuleList.java:93)
+	at org.netbeans.core.startup.ModuleList$Listener.stepEnable(ModuleList.java:1384)
+	at org.netbeans.core.startup.ModuleList$Listener.access$1400(ModuleList.java:982)
+	at org.netbeans.core.startup.ModuleList$Listener$1.run(ModuleList.java:1206)
+	at org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+	at org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+	at org.netbeans.core.startup.ModuleList$Listener.run(ModuleList.java:1182)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
 INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	dk.sdu.mmmi.cbse.CommonAsteroid [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.SimpleAsteroidSplitter [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.Core [2.0 2.0 202003051002]
+	dk.sdu.mmmi.cbse.Asteroid [2.0 2.0 202003051002]
+SEVERE [global]
+java.lang.NoClassDefFoundError: Could not initialize class org.lwjgl.Sys
+	at org.lwjgl.opengl.Display.<clinit>(Display.java:135)
+	at com.badlogic.gdx.backends.lwjgl.LwjglGraphics.setVSync(LwjglGraphics.java:592)
+[catch] at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
 Turning on modules...
 Loading module services...
 Loading modules...
 Starting modules...
-INFO [null]: Last record repeated 8 more times.
-INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
-	dk.sdu.mmmi.cbse.Common [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.CommonBullet [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.SimpleBullet [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.CommonAsteroidSplitter [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.CommonAsteroid [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.SimpleAsteroidSplitter [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.Player [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.Enemy [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.Core [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.CollisionDetection [2.0 2.0 202003051002]
-	dk.sdu.mmmi.cbse.Asteroid [2.0 2.0 202003051002]
-Starting modules...
-INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated 3 more times.
 Turning on modules...done.
 INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0]
+INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
+	dk.sdu.mmmi.cbse.Asteroid [2.0 2.0 202003051002]
+WARNING [org.openide.util.lookup.ProxyLookup]
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.common.data.World.removeEntity(World.java:27)
+	at dk.sdu.mmmi.cbse.asteroid.AsteroidPlugin.stop(AsteroidPlugin.java:23)
+	at dk.sdu.mmmi.cbse.core.main.Game$1.resultChanged(Game.java:163)
+[catch] at org.openide.util.lookup.ProxyLookup$1Notify.run(ProxyLookup.java:155)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:164)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:100)
+	at org.netbeans.core.startup.MainLookup.changeLookups(MainLookup.java:193)
+	at org.netbeans.core.startup.MainLookup.systemClassLoaderChanged(MainLookup.java:93)
+	at org.netbeans.core.startup.ModuleSystem$1.propertyChange(ModuleSystem.java:91)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266)
+	at org.netbeans.ModuleManager.firePropertyChange(ModuleManager.java:279)
+	at org.netbeans.ChangeFirer.fire(ChangeFirer.java:87)
+	at org.netbeans.ModuleManager.disable(ModuleManager.java:1534)
+	at org.netbeans.core.startup.ModuleList$Listener.stepDelete(ModuleList.java:1441)
+	at org.netbeans.core.startup.ModuleList$Listener.access$1600(ModuleList.java:982)
+	at org.netbeans.core.startup.ModuleList$Listener$1.run(ModuleList.java:1208)
+	at org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+	at org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+	at org.netbeans.core.startup.ModuleList$Listener.run(ModuleList.java:1182)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
+Turning off modules...
+Stopping Asteroid
+Turning off modules...done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0]
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Asteroid[dk.sdu.mmmi.cbse.Asteroid/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Asteroid.nbm
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml@0
+INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar@0
+INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Asteroid.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar
+WARNING [org.netbeans.updater]: Error: Cannot delete C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@1b5d6418
+INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml modified.
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml@0
+INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\additional_information.xml deleted.
+WARNING [org.openide.util.lookup.MetaInfServicesLookup]: dk.sdu.mmmi.cbse.commonasteroid.AsteroidSPI is not the real McCoy! Actually found it in ModuleCL@7bd36095[dk.sdu.mmmi.cbse.CommonAsteroid] (from SystemClassLoader[30 modules]) but searched for from ModuleCL@67d22d94[dk.sdu.mmmi.cbse.CommonAsteroid]
+WARNING [org.openide.util.lookup.ProxyLookup]
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.common.data.World.removeEntity(World.java:27)
+	at dk.sdu.mmmi.cbse.asteroid.AsteroidPlugin.stop(AsteroidPlugin.java:23)
+	at dk.sdu.mmmi.cbse.core.main.Game$1.resultChanged(Game.java:163)
+[catch] at org.openide.util.lookup.ProxyLookup$1Notify.run(ProxyLookup.java:155)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:164)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:100)
+	at org.netbeans.core.startup.MainLookup.changeLookups(MainLookup.java:193)
+	at org.netbeans.core.startup.MainLookup.moduleClassLoadersUp(MainLookup.java:107)
+	at org.netbeans.core.startup.MainLookup.systemClassLoaderChanged(MainLookup.java:95)
+	at org.netbeans.core.startup.NbInstaller.classLoaderUp(NbInstaller.java:309)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1435)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1254)
+	at org.netbeans.core.startup.ModuleList.installNew(ModuleList.java:315)
+	at org.netbeans.core.startup.ModuleList.access$2400(ModuleList.java:93)
+	at org.netbeans.core.startup.ModuleList$Listener.stepEnable(ModuleList.java:1384)
+	at org.netbeans.core.startup.ModuleList$Listener.access$1400(ModuleList.java:982)
+	at org.netbeans.core.startup.ModuleList$Listener$1.run(ModuleList.java:1206)
+	at org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+	at org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+	at org.netbeans.core.startup.ModuleList$Listener.run(ModuleList.java:1182)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	dk.sdu.mmmi.cbse.Asteroid [2.0 2.0 202003051002]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
+Turning on modules...
+Loading module services...
+Loading modules...
+Starting modules...
+Turning on modules...done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
 INFO [null]: Last record repeated 2 more times.
 INFO [null]: Last record repeated again.
 INFO [null]: Last record repeated 2 more times.
 INFO [null]: Last record repeated 2 more times.
+INFO [null]: Last record repeated more than 10 times, further logs of this record are ignored until the log record changes.
+INFO [null]: Last record repeated 27 times in total.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Player[dk.sdu.mmmi.cbse.Player/2.0]
+INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
+	dk.sdu.mmmi.cbse.Player [2.0 2.0 202003051002]
+WARNING [org.openide.util.lookup.MetaInfServicesLookup]: dk.sdu.mmmi.cbse.commonasteroid.AsteroidSPI is not the real McCoy! Actually found it in ModuleCL@7bd36095[dk.sdu.mmmi.cbse.CommonAsteroid] (from SystemClassLoader[29 modules]) but searched for from ModuleCL@67d22d94[dk.sdu.mmmi.cbse.CommonAsteroid]
+WARNING [org.openide.util.lookup.ProxyLookup]
+java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1042)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:996)
+	at dk.sdu.mmmi.cbse.core.main.Game$1.resultChanged(Game.java:161)
+[catch] at org.openide.util.lookup.ProxyLookup$1Notify.run(ProxyLookup.java:155)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:164)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:100)
+	at org.netbeans.core.startup.MainLookup.changeLookups(MainLookup.java:193)
+	at org.netbeans.core.startup.MainLookup.systemClassLoaderChanged(MainLookup.java:93)
+	at org.netbeans.core.startup.ModuleSystem$1.propertyChange(ModuleSystem.java:91)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266)
+	at org.netbeans.ModuleManager.firePropertyChange(ModuleManager.java:279)
+	at org.netbeans.ChangeFirer.fire(ChangeFirer.java:87)
+	at org.netbeans.ModuleManager.disable(ModuleManager.java:1534)
+	at org.netbeans.core.startup.ModuleList$Listener.stepDelete(ModuleList.java:1441)
+	at org.netbeans.core.startup.ModuleList$Listener.access$1600(ModuleList.java:982)
+	at org.netbeans.core.startup.ModuleList$Listener$1.run(ModuleList.java:1208)
+	at org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+	at org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+	at org.netbeans.core.startup.ModuleList$Listener.run(ModuleList.java:1182)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
+Turning off modules...
+Stopping Player
+Turning off modules...done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Player[dk.sdu.mmmi.cbse.Player/2.0]
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster netbeansmodul1 in Player[dk.sdu.mmmi.cbse.Player/2.0] wasn't found or was read only. Will be used C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Player.nbm
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Player.xml@0
+INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Player.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Player.xml
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Player.jar@0
+INFO [org.netbeans.updater]: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Player.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Player.jar
+WARNING [org.netbeans.updater]: Error: Cannot delete C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@4d88b502
+INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Player.xml modified.
+INFO [org.netbeans.updater]: File installed C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Player.xml@0
+INFO [org.netbeans.updater]: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\additional_information.xml deleted.
+WARNING [org.openide.util.lookup.MetaInfServicesLookup]: dk.sdu.mmmi.cbse.commonasteroid.AsteroidSPI is not the real McCoy! Actually found it in ModuleCL@7bd36095[dk.sdu.mmmi.cbse.CommonAsteroid] (from SystemClassLoader[30 modules]) but searched for from ModuleCL@67d22d94[dk.sdu.mmmi.cbse.CommonAsteroid]
+WARNING [org.openide.util.lookup.ProxyLookup]
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.common.data.World.removeEntity(World.java:27)
+	at dk.sdu.mmmi.cbse.asteroid.AsteroidPlugin.stop(AsteroidPlugin.java:23)
+	at dk.sdu.mmmi.cbse.core.main.Game$1.resultChanged(Game.java:163)
+[catch] at org.openide.util.lookup.ProxyLookup$1Notify.run(ProxyLookup.java:155)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:164)
+	at org.openide.util.lookup.ProxyLookup.setLookups(ProxyLookup.java:100)
+	at org.netbeans.core.startup.MainLookup.changeLookups(MainLookup.java:193)
+	at org.netbeans.core.startup.MainLookup.moduleClassLoadersUp(MainLookup.java:107)
+	at org.netbeans.core.startup.MainLookup.systemClassLoaderChanged(MainLookup.java:95)
+	at org.netbeans.core.startup.NbInstaller.classLoaderUp(NbInstaller.java:309)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1435)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1254)
+	at org.netbeans.core.startup.ModuleList.installNew(ModuleList.java:315)
+	at org.netbeans.core.startup.ModuleList.access$2400(ModuleList.java:93)
+	at org.netbeans.core.startup.ModuleList$Listener.stepEnable(ModuleList.java:1384)
+	at org.netbeans.core.startup.ModuleList$Listener.access$1400(ModuleList.java:982)
+	at org.netbeans.core.startup.ModuleList$Listener$1.run(ModuleList.java:1206)
+	at org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+	at org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+	at org.netbeans.core.startup.ModuleList$Listener.run(ModuleList.java:1182)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	dk.sdu.mmmi.cbse.Player [2.0 2.0 202003051002]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
+Turning on modules...
+Loading module services...
+Loading modules...
+Starting modules...
+Turning on modules...done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
 INFO [null]: Last record repeated 2 more times.
+INFO [null]: Last record repeated 2 more times.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated more than 10 times, further logs of this record are ignored until the log record changes.
+INFO [null]: Last record repeated 13 times in total.
+SEVERE [global]
+java.lang.ClassNotFoundException: com.badlogic.gdx.backends.lwjgl.LwjglApplication$2
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:197)
+Caused: java.lang.ClassNotFoundException: com.badlogic.gdx.backends.lwjgl.LwjglApplication$2 starting from ModuleCL@6b3f407[dk.sdu.mmmi.cbse.Core] with possible defining loaders [ModuleCL@3df338db[dk.sdu.mmmi.cbse.Core]] and declared parents [org.netbeans.JarClassLoader@70b2a237, ModuleCL@5f7ce740[org.netbeans.api.annotations.common], ModuleCL@6efe9efe[dk.sdu.mmmi.cbse.Common], ModuleCL@3fa1a342[dk.sdu.mmmi.cbse.CommonBullet], ModuleCL@67d22d94[dk.sdu.mmmi.cbse.CommonAsteroid], ModuleCL@32508ab0[dk.sdu.mmmi.cbse.CommonAsteroidSplitter]]
+	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:199)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+Caused: java.lang.NoClassDefFoundError: com/badlogic/gdx/backends/lwjgl/LwjglApplication$2
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.exit(LwjglApplication.java:408)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:161)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:128)
+Caused: com.badlogic.gdx.utils.GdxRuntimeException
+[catch] at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:135)
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated 2 more times.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
 INFO [null]: Last record repeated more than 10 times, further logs of this record are ignored until the log record changes.

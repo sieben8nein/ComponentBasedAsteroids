@@ -4,7 +4,7 @@ OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/commonbullet/Bundle
  .properties
 OpenIDE-Module-Specification-Version: 2.0
 OpenIDE-Module-Implementation-Version: 2.0
-OpenIDE-Module-Build-Version: 202003051002
+OpenIDE-Module-Build-Version: 202003051404
 OpenIDE-Module: dk.sdu.mmmi.cbse.CommonBullet
 OpenIDE-Module-Public-Packages: dk.sdu.mmmi.cbse.commonbullet.*
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

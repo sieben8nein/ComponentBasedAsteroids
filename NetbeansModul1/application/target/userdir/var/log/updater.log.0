@@ -1,0 +1,198 @@
+März 05, 2020 2:48:32 NACHM. org.netbeans.updater.UpdaterFrame <clinit>
+INFO: Entering updater.jar .................................................................... 
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: 780: Unpacking dk-sdu-mmmi-cbse-CommonAsteroid.nbm
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonAsteroid.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\config\Modules\dk-sdu-mmmi-cbse-CommonAsteroid.xml
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonAsteroid.xml deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroid.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-CommonAsteroid.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-CommonAsteroid.xml
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonAsteroid.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\dk-sdu-mmmi-cbse-CommonAsteroid.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonAsteroid.jar deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroid.nbm:netbeans/modules/dk-sdu-mmmi-cbse-CommonAsteroid.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-CommonAsteroid.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-CommonAsteroid.nbm deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.XMLUtil write
+INFO: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@2faccd57
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.UpdateTracking$Module write
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-CommonAsteroid.xml modified.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: 780: Unpacking dk-sdu-mmmi-cbse-Player.nbm
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Player.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\config\Modules\dk-sdu-mmmi-cbse-Player.xml
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Player.xml deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Player.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Player.xml
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Player.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\dk-sdu-mmmi-cbse-Player.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Player.jar deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Player.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Player.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Player.nbm deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.XMLUtil write
+INFO: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@1ff8faf
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.UpdateTracking$Module write
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Player.xml modified.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: 780: Unpacking dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\config\Modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.jar deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm:netbeans/modules/dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.nbm deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.XMLUtil write
+INFO: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@5f69ff34
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.UpdateTracking$Module write
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-SimpleAsteroidSplitter.xml modified.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: 780: Unpacking dk-sdu-mmmi-cbse-Core.nbm
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Core.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\config\Modules\dk-sdu-mmmi-cbse-Core.xml
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Core.xml deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Core.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Core.xml
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Core.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\dk-sdu-mmmi-cbse-Core.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Core.jar deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Core.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Core.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-backend-lwjgl.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-backend-lwjgl.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-backend-lwjgl.jar deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-backend-lwjgl.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-box2d-platform-natives-desktop.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-box2d-platform-natives-desktop.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-box2d-platform-natives-desktop.jar deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-box2d-platform-natives-desktop.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-box2d.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-box2d.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-box2d.jar deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-box2d.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-box2d.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-freetype-platform-natives-desktop.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-freetype-platform-natives-desktop.jar
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-freetype-platform-natives-desktop.jar deleted.
+März 05, 2020 2:48:33 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-freetype-platform-natives-desktop.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-freetype.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-freetype.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-freetype.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-freetype.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-freetype.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-platform-natives-desktop.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-platform-natives-desktop.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-platform-natives-desktop.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx-platform-natives-desktop.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-gdx\gdx.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-jlayer\jlayer.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-jlayer\jlayer.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-jlayer\jlayer.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-jlayer/jlayer.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\com-badlogicgames-jlayer\jlayer.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jinput\jinput.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jinput\jinput.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jinput\jinput.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jinput/jinput.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jinput\jinput.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jutils\jutils.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jutils\jutils.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jutils\jutils.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jutils/jutils.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\net-java-jutils\jutils.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-jcraft\jorbis.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\org-jcraft\jorbis.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-jcraft\jorbis.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-jcraft/jorbis.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-jcraft\jorbis.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-linux.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-linux.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-linux.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-linux.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-osx.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-osx.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-osx.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-osx.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-windows.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-windows.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-windows.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl-platform-natives-windows.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl_util.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl_util.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl_util.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm:netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl_util.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\ext\dk.sdu.mmmi.cbse.Core\org-lwjgl-lwjgl\lwjgl_util.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Core.nbm deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.XMLUtil write
+INFO: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7858c41c
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.UpdateTracking$Module write
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Core.xml modified.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: 780: Unpacking dk-sdu-mmmi-cbse-Asteroid.nbm
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Backup file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\backup\netbeans\modules\dk-sdu-mmmi-cbse-Asteroid.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: Copied file C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Asteroid.jar to C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\modules\dk-sdu-mmmi-cbse-Asteroid.jar
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.ModuleUpdater unpack
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm deleted.
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.XMLUtil write
+INFO: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7e97938c
+März 05, 2020 2:48:34 NACHM. org.netbeans.updater.UpdateTracking$Module write
+INFO: File C:\Users\bende\Documents\SDU\4_Semester\CBSE\ComponentBasedAsteroids\NetbeansModul1\application\target\userdir\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml modified.

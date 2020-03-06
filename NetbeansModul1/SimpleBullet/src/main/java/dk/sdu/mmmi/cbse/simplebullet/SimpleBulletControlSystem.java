@@ -77,8 +77,8 @@ public class SimpleBulletControlSystem implements IEntityProcessingService, Bull
         shapex[0] = x;
         shapey[0] = y;
 
-        shapex[1] = (float) (x + Math.cos(radians - 4 * 3.1415f / 5));
-        shapey[1] = (float) (y + Math.sin(radians - 4 * 3.1145f / 5));
+        shapex[1] = (float) (x + Math.cos(radians - 4 * 3.1415f / 5)*5);
+        shapey[1] = (float) (y + Math.sin(radians - 4 * 3.1145f / 5)*5);
         
         shapex[2] = x;
         shapey[2] = y;

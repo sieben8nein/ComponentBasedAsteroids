@@ -1,4 +1,4 @@
-#Thu Mar 05 14:36:45 CET 2020
+#Thu Mar 05 14:48:54 CET 2020
 org.netbeans.api.progress.OpenIDE-Module-Description=\u0000
 dk.sdu.mmmi.cbse.Common.OpenIDE-Module-Hide-Classpath-Packages=\u0000
 org.netbeans.libs.asm.OpenIDE-Module-Deprecated=\u0000
@@ -112,8 +112,8 @@ dk.sdu.mmmi.cbse.Player.OpenIDE-Module-Deprecated=\u0000
 dk.sdu.mmmi.cbse.CommonAsteroid.OpenIDE-Module-Deprecated=\u0000
 org.openide.io.OpenIDE-Module-Layer=\u0000
 org.netbeans.api.intent.AutoUpdate-Show-In-Client=false
-org.netbeans.api.progress.AutoUpdate-Show-In-Client=false
 dk.sdu.mmmi.cbse.SimpleBullet.AutoUpdate-Show-In-Client=\u0000
+org.netbeans.api.progress.AutoUpdate-Show-In-Client=false
 org.netbeans.api.intent.OpenIDE-Module-Hide-Classpath-Packages=\u0000
 org.netbeans.libs.asm.OpenIDE-Module-Layer=\u0000
 org.openide.io.OpenIDE-Module-Deprecated=\u0000
