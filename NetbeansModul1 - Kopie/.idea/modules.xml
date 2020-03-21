@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Asteroid/Asteroid.iml" filepath="$PROJECT_DIR$/Asteroid/Asteroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollisionDetection/CollisionDetection.iml" filepath="$PROJECT_DIR$/CollisionDetection/CollisionDetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonAsteroid/CommonAsteroid.iml" filepath="$PROJECT_DIR$/CommonAsteroid/CommonAsteroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonAsteroidSplitter/CommonAsteroidSplitter.iml" filepath="$PROJECT_DIR$/CommonAsteroidSplitter/CommonAsteroidSplitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonBullet/CommonBullet.iml" filepath="$PROJECT_DIR$/CommonBullet/CommonBullet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enemy/Enemy.iml" filepath="$PROJECT_DIR$/Enemy/Enemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/NetbeansModul1-app.iml" filepath="$PROJECT_DIR$/application/NetbeansModul1-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/branding/NetbeansModul1-branding.iml" filepath="$PROJECT_DIR$/branding/NetbeansModul1-branding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetbeansModul1-parent.iml" filepath="$PROJECT_DIR$/NetbeansModul1-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Player/Player.iml" filepath="$PROJECT_DIR$/Player/Player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleAsteroidSplitter/SimpleAsteroidSplitter.iml" filepath="$PROJECT_DIR$/SimpleAsteroidSplitter/SimpleAsteroidSplitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleBullet/SimpleBullet.iml" filepath="$PROJECT_DIR$/SimpleBullet/SimpleBullet.iml" />
+    </modules>
+  </component>
+</project>

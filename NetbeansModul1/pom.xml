@@ -73,6 +73,7 @@
         <module>SimpleAsteroidSplitter</module>
         <module>CommonAsteroid</module>
         <module>SilentUpdate</module>
+        <module>OSGiExtension</module>
     </modules>
 
     <properties>

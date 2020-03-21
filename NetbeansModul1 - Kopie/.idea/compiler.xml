@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Core" />
+        <module name="NetbeansModul1-branding" />
+        <module name="CollisionDetection" />
+        <module name="CommonBullet" />
+        <module name="SimpleAsteroidSplitter" />
+        <module name="Common" />
+        <module name="SimpleBullet" />
+        <module name="NetbeansModul1-app" />
+        <module name="Player" />
+        <module name="Enemy" />
+        <module name="CommonAsteroid" />
+        <module name="Asteroid" />
+        <module name="CommonAsteroidSplitter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Asteroid" target="1.8" />
+      <module name="CollisionDetection" target="1.8" />
+      <module name="Common" target="1.8" />
+      <module name="CommonAsteroid" target="1.8" />
+      <module name="CommonAsteroidSplitter" target="1.8" />
+      <module name="CommonBullet" target="1.8" />
+      <module name="Core" target="1.8" />
+      <module name="Enemy" target="1.8" />
+      <module name="NetbeansModul1-app" target="1.8" />
+      <module name="NetbeansModul1-branding" target="1.8" />
+      <module name="NetbeansModul1-parent" target="1.5" />
+      <module name="Player" target="1.8" />
+      <module name="SimpleAsteroidSplitter" target="1.8" />
+      <module name="SimpleBullet" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

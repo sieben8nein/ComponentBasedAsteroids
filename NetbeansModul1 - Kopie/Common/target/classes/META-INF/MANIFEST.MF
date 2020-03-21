@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: dk/sdu/mmmi/cbse/common/data/Installer.class
+OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/common/Bundle.prope
+ rties
+OpenIDE-Module-Specification-Version: 2.0
+OpenIDE-Module-Implementation-Version: 2.0
+OpenIDE-Module-Build-Version: 202003151328
+OpenIDE-Module: dk.sdu.mmmi.cbse.Common
+OpenIDE-Module-Public-Packages: dk.sdu.mmmi.cbse.common.data.*, dk.sdu
+ .mmmi.cbse.common.data.entityparts.*, dk.sdu.mmmi.cbse.common.data.in
+ terfaces.*, dk.sdu.mmmi.cbse.common.events.*, dk.sdu.mmmi.cbse.common
+ .services.*, dk.sdu.mmmi.cbse.common.util.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
+OpenIDE-Module-Name: Common
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.33, org.openide.modules > 7.54, org.openide.util.ui > 9.14
+

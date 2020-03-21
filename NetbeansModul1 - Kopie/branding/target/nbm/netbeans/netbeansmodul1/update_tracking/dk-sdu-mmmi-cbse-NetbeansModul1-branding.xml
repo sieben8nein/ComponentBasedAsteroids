@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.NetbeansModul1.branding">
+    <module_version install_time="1584278926697" last="true" origin="installer" specification_version="2.0">
+        <file crc="776763032" name="config/Modules/dk-sdu-mmmi-cbse-NetbeansModul1-branding.xml"/>
+        <file crc="1835637332" name="core/locale/core_netbeansmodul1.jar"/>
+        <file crc="1648515578" name="modules/dk-sdu-mmmi-cbse-NetbeansModul1-branding.jar"/>
+        <file crc="3420393715" name="modules/locale/org-netbeans-core-windows_netbeansmodul1.jar"/>
+        <file crc="1367323676" name="modules/locale/org-netbeans-core_netbeansmodul1.jar"/>
+    </module_version>
+</module>

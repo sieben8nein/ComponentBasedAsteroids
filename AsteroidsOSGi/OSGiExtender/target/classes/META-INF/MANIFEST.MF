@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20200315
+OpenIDE-Module-Build-Version: 202003151325
+OpenIDE-Module: dk.sdu.mmmi.cbse.OSGiExtender
+OpenIDE-Module-Public-Packages: -
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
+OpenIDE-Module-Name: OSGiExtender
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.eclipse.osgi.services > 3.2.10
+ 0, org.eclipse.equinox.ds > 1.4.400, org.eclipse.equinox.util > 1.0.5
+ 00, dk.sdu.mmmi.cbse.OSGiCore > 1.0.0, dk.sdu.mmmi.cbse.OSGiLibGDX > 
+ 1.0.0, dk.sdu.mmmi.cbse.OSGiEnemy > 1.0.0, dk.sdu.mmmi.cbse.OSGiAster
+ oids > 1.0.0, dk.sdu.mmmi.cbse.OSGiAsteroidSplitter > 1.0.0, dk.sdu.m
+ mmi.cbse.OSGiLaser > 1.0.0
+

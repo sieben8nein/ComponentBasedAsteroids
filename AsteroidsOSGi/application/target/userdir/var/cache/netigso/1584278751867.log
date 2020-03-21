@@ -1,0 +1,79 @@
+!SESSION 2020-03-15 14:25:53.791 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-03-15 14:25:53.791
+!MESSAGE Could not bind a reference of component dk.sdu.mmmi.cbse.Game. The reference is: Reference[name = IPostEntityProcessingService, interface = dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService, policy = dynamic, cardinality = 0..n, target = null, bind = addPostEntityProcessingService, unbind = removePostEntityProcessingService]
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiEnemy 2 0 2020-03-15 14:25:53.791
+!MESSAGE [SCR] Could not get the service object relevant to the reference. One possible reason is a circularity problem. Another possible reason is that BundleContext.getService() returns null.
+	Details:
+	Problematic reference = Reference[name = BulletService, interface = dk.sdu.mmmi.cbse.common.services.IEntityProcessingService, policy = dynamic, cardinality = 0..1, target = null, bind = setBulletService, unbind = removeBulletService]
+	of service component = dk.sdu.mmmi.cbse.osgiaenemy
+	component implementation class = dk.sdu.mmmi.cbse.osgienemy.EnemyProcessor
+	located in bundle with symbolic name = dk.sdu.mmmi.cbse.OSGiEnemy
+	bundle location = reference:file:asteroidsosgi/modules/dk-sdu-mmmi-cbse-OSGiEnemy.jar
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiEnemy 2 0 2020-03-15 14:25:53.791
+!MESSAGE [SCR] ComponentReference.bind(): bind method 'setBulletService' is not found or it is not accessible!
+	Details:
+	Problematic reference = Reference[name = BulletService, interface = dk.sdu.mmmi.cbse.common.services.IEntityProcessingService, policy = dynamic, cardinality = 0..1, target = null, bind = setBulletService, unbind = removeBulletService]
+	of service component = dk.sdu.mmmi.cbse.osgiaenemy
+	component implementation class = dk.sdu.mmmi.cbse.osgienemy.EnemyProcessor
+	located in bundle with symbolic name = dk.sdu.mmmi.cbse.OSGiEnemy
+	bundle location = reference:file:asteroidsosgi/modules/dk-sdu-mmmi-cbse-OSGiEnemy.jar
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiEnemy 4 0 2020-03-15 14:25:53.802
+!MESSAGE [SCR] Error while trying to bind reference Reference[name = BulletService, interface = dk.sdu.mmmi.cbse.common.services.IEntityProcessingService, policy = dynamic, cardinality = 0..1, target = null, bind = setBulletService, unbind = removeBulletService]
+	Details:
+	Problematic reference = Reference[name = BulletService, interface = dk.sdu.mmmi.cbse.common.services.IEntityProcessingService, policy = dynamic, cardinality = 0..1, target = null, bind = setBulletService, unbind = removeBulletService]
+	of service component = dk.sdu.mmmi.cbse.osgiaenemy
+	component implementation class = dk.sdu.mmmi.cbse.osgienemy.EnemyProcessor
+	located in bundle with symbolic name = dk.sdu.mmmi.cbse.OSGiEnemy
+	bundle location = reference:file:asteroidsosgi/modules/dk-sdu-mmmi-cbse-OSGiEnemy.jar
+!STACK 0
+java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.dynamicBind(InstanceProcess.java:416)
+	at org.eclipse.equinox.internal.ds.Resolver.performWork(Resolver.java:756)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiEnemy 4 0 2020-03-15 14:25:53.802
+!MESSAGE [SCR] Error while trying to bind reference Reference[name = BulletService, interface = dk.sdu.mmmi.cbse.common.services.IEntityProcessingService, policy = dynamic, cardinality = 0..1, target = null, bind = setBulletService, unbind = removeBulletService]
+	Details:
+	Problematic reference = Reference[name = BulletService, interface = dk.sdu.mmmi.cbse.common.services.IEntityProcessingService, policy = dynamic, cardinality = 0..1, target = null, bind = setBulletService, unbind = removeBulletService]
+	of service component = dk.sdu.mmmi.cbse.osgiaenemy
+	component implementation class = dk.sdu.mmmi.cbse.osgienemy.EnemyProcessor
+	located in bundle with symbolic name = dk.sdu.mmmi.cbse.OSGiEnemy
+	bundle location = reference:file:asteroidsosgi/modules/dk-sdu-mmmi-cbse-OSGiEnemy.jar
+!STACK 0
+java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.dynamicBind(InstanceProcess.java:416)
+	at org.eclipse.equinox.internal.ds.Resolver.performWork(Resolver.java:756)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+!ENTRY dk.sdu.mmmi.cbse.OSGiEnemy 2 0 2020-03-15 14:25:53.802
+!MESSAGE [SCR] ComponentReference.bind(): service reference {dk.sdu.mmmi.cbse.common.services.IEntityProcessingService}={service.id=34} is already bound to instance org.eclipse.equinox.internal.ds.impl.ComponentInstanceImpl@7e7e00a0  
+	Details:
+	Problematic reference = Reference[name = BulletService, interface = dk.sdu.mmmi.cbse.common.services.IEntityProcessingService, policy = dynamic, cardinality = 0..1, target = null, bind = setBulletService, unbind = removeBulletService]
+	of service component = dk.sdu.mmmi.cbse.osgiaenemy
+	component implementation class = dk.sdu.mmmi.cbse.osgienemy.EnemyProcessor
+	located in bundle with symbolic name = dk.sdu.mmmi.cbse.OSGiEnemy
+	bundle location = reference:file:asteroidsosgi/modules/dk-sdu-mmmi-cbse-OSGiEnemy.jar
